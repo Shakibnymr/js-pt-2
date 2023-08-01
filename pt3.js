@@ -1,13 +1,20 @@
-var numbers = [13, 79, 45]
-if (numbers[0] > numbers[1] || numbers[0] > numbers[2]) {
-    console.log('largest number')
+var num1 = 13 ;
+var num2 =  79;
+var num3 =   45;
+
+
+if(num1 > num2){
+    if(num1 > num3){
+        console.log(num1);
+    }
+    else {
+        console.log(num3);
+    }
 }
-else {
-    console.log('not found')
+else{
+    if(num2 > num3){
+        console.log(num2)
+    }
 }
-if (numbers[1] > numbers[2] || numbers[1] > numbers[0]) {
-    console.log('largest number')
-}
-else {
-    console.log('not found')
-}
+
+
